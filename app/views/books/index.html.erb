@@ -1,10 +1,8 @@
-<% @book.each do |book| %>
+<% @books.each do |book| %>
 <div>
   <p>Title</p>
   <span><%= book.title %></span>
   <p>Opinion：</p>
-  <span><%= book.opinion %></span>
-  <p>ユーザーネーム：</p>
-  <span><%= book.user.name %></span>
+  <span><%= book.body %></span>
 </div>
 <% end %>
