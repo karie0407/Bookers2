@@ -1,2 +1,21 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+.pl-5, .px-5 {
+    padding-left: 3rem!important;
+}
+
+.pr-5, .px-5 {
+    padding-right: 3rem!important;
+}
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+ 
